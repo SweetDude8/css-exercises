@@ -1,0 +1,18 @@
+.redBG {
+   background-color: rgb(255, 155, 155);
+}
+
+#big_font_blue_text {
+    font-size: 38px;
+    color: rgb(0, 0, 255);
+}
+
+.oddly_cool {
+    font-size: 24px;
+}
+
+#number_4 {
+    background-color: hsl(95, 81%, 69%);
+    font-size: 24px;
+    font-weight: bold;
+}
