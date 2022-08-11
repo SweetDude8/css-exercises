@@ -16,6 +16,7 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding: 12px;
 }
 
 input {
@@ -25,3 +26,36 @@ input {
   width: 400px;
   margin-bottom: 16px;
 }
+
+/* my solution */
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+ul, a{
+  list-style-type: none;
+  text-decoration: none;
+  display: flex;
+  gap: 16px;
+  margin: 0;
+  padding: 0;
+  color: rgb(90, 89, 89);
+}
+
+.header, .footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.footer {
+  background-color: #eeeeee;
+}
+
+.content {
+  text-align: center;
+}
+
